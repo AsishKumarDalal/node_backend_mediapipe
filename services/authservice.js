@@ -33,6 +33,7 @@ const register_service = async (userData) => {
 
     return {
       success: true,
+      email,
       message: "Login successful",
       token,
     };
@@ -64,6 +65,7 @@ const login_service = async (email, password) => {
 
     return {
       success: true,
+      email,
       message: "Login successful",
       token,
     };
